@@ -1,0 +1,604 @@
+header, nav, section, footer {display:block;}
+
+body, html {
+    height: 100%;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: 'Scope One', serif;   
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+h1, h2 {
+    color: #666;
+    text-align: center;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+/* NAVIGATION */
+nav {
+    width: 100%;
+    height: 9%; 
+}
+
+nav #logo {
+    padding: 0.5%;
+    float: left;
+    width: 10%;
+}
+
+nav #logo img {
+    width: 60%;
+}
+
+nav ul {
+    float: left;
+    width: 84%;
+    text-align: right;
+    list-style-type: none;
+    margin: 0.9% 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0.3%;
+    width: 10.6%;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all 0.3s linear;
+}
+
+    nav li:hover {
+        background-color: rgba(122,122,122,0.2);
+    }
+
+    nav li:active {
+        background-color: rgba(122,122,122,0.4);
+    }
+
+nav li a {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav-below {
+    color: #fff;
+    display: block;
+    font-size: 10px;
+    text-align: center;
+}
+
+header.background {
+    height: 100vh;
+    background-image: url(../layout-assets/background.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;    
+}
+
+.main-heading {
+    font-family: 'Raleway';
+    font-weight: 400;
+    margin: 18% 0 0 0;
+    padding: 0;
+    line-height: 1.3;
+    font-size: 3.5em;
+    color: #fff;
+    text-align: center;
+}
+
+.mobile-heading {
+    display: none;
+    color: #fff;
+}
+
+/* SKILLS  */
+section.my-skills {
+    height: 80%;
+    background-color: #fff;   
+}
+
+.intro {
+    text-align: center;
+    padding: 5% 0 0;
+}
+
+.intro h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.skills-columns {
+    margin: 7% 0 0;   
+}
+
+.skills-one-column {
+    float: left;
+    width: 33%;
+    text-align: center; 
+}
+
+.skills-one-column img {
+    margin: 0 auto;
+    width: 30%;
+}
+
+.skills-one-column p {
+    color: #999;
+    padding: 0 5% 1%;
+}
+
+
+/* WORK */
+.work {
+    background-color: #eee;
+    margin-top: 3rem;
+    height: auto;
+}
+
+.work-columns {
+    margin: 7% auto 0;
+}
+
+.work-columns p {
+    color: #999;
+}
+
+.work-one-column {
+    text-align: center;
+    float: left;
+    width: 33%;
+    padding-top: 1%;
+}
+
+.work-one-column img {
+    opacity: 0.8;
+    border-radius: 3%;
+    width: 80%;
+    transition: all 0.5s ease;
+}
+
+    .work-one-column img:hover {
+        opacity: 1;
+    }
+
+
+/* TESTIMONIALS */
+.work .testimonials {
+    width: 100%;
+    border-top: 1px solid #c6c6c6;
+    margin: 5rem auto 0;
+    text-align: center;
+    padding: 2.5rem 0 6rem;
+}
+
+.work .testimonials h3 {
+    color: #666;
+}
+
+.work .testimonials p {
+    color: #999;
+    font-size: 19px;
+    padding-top: 1rem;
+}
+
+.fa-quote-left, .fa-quote-right {
+    font-size: 3px;
+    color: rgb(127, 155, 255);
+}
+
+.testimonial-author {
+    text-align: right;
+    color: #666;
+    font-size: 13px;
+    padding-top: 1%;
+    font-style: italic;
+}
+
+
+/* CONTACT ME */
+.wrapper {
+    position: relative;
+    color: #fff;
+    background-size: cover;
+    height: 68%;
+}
+
+.gradient {
+    position: relative;
+    color: #fff;
+    background: linear-gradient(
+        to right bottom,
+        rgba(127, 155, 255, 0.800),
+        rgba(117, 123, 232, 0.800));
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+video {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.contact-info-container {
+    position: absolute;
+    top: 0;
+    left: 1.5%;
+    margin-left: 8%;
+    margin-top: 3%;
+    margin-right: auto;
+    z-index: 10;
+    padding: 0;
+}
+
+.contact-info-container .intro h2, .contact-info-container .intro p {
+    color: #fff;
+}
+
+.contact-buttons {
+    width: 90%;
+    margin: 5% auto;   
+}
+
+.contact-button {
+    border: 2px solid #fff;
+    background: none;
+    padding: 1% 3%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 100%;
+    display: block;
+    width: 20%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transition: all 0.3s linear;
+}
+
+    .contact-button:hover {
+        background: rgb(255,255,255);
+        color: rgb(127, 155, 255);
+    }
+
+    .contact-button:active {
+        border-color: #ccc;
+    }
+
+.contact-button a {
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-image:  radial-gradient(circle, #666, #000);
+    text-align: center;
+    width: 100%;
+    height: 34%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+}
+
+#logo-footer {
+    width: 30%;
+}
+
+#logo-footer img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 3%;
+    width: 8%;
+}
+
+footer .footer-copyright {
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 15px;
+}
+
+
+/*Footer - social icons*/
+ul.contact-icons  {
+    list-style-type: none;
+    padding:0;
+    text-align: center;
+}
+
+ul.contact-icons li {
+    display: inline-block;
+    width:4%;
+    padding: 1%;
+}
+
+.contact-icons img {
+    text-align: right;
+    width: 100%;
+    transition: 0.2s all linear;
+}
+
+    .contact-icons img:hover {
+        width: 85%;
+        cursor: pointer;
+    }
+
+
+/********** media screens ************/
+@media screen and (max-width: 1000px) {  
+   .mobile-heading {
+        display: block;
+        padding-top: 20%;
+        font-size: 50px;
+        font-weight: 400;
+    }
+    
+    .main-heading {
+        display: none;
+    }
+    
+    #logo-footer img {
+        padding-top: 5%;
+    }
+    
+    nav ul {
+        width: 81%;
+    }
+    
+    nav ul li {
+        width: 15%;
+    }
+    
+    .wrapper {
+        height: 50%;
+    }
+    
+    .contact-info-container {
+        margin-top: -1%;
+    }
+    
+    ul.contact-icons li {
+        width: 7%;
+        text-align: center;
+    }
+    
+    footer {
+        height: 34%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 95%;
+    }
+    
+    header.background {
+        height: 70%;
+    }
+    
+    h1, h2 {
+        font-size: 1rem;
+    }
+    
+    .mobile-heading {
+        font-size: 35px;
+    }
+    
+    nav #logo img {
+        width: 120%;
+    }
+    
+    nav ul {
+       width: 80%; 
+    }
+    
+    nav ul li {
+        width: 19%;
+    }
+    
+    .intro {
+        padding: 8% 0 0 0;
+    }
+    
+    .intro h2 {
+        font-size: 2rem;
+    }
+    
+    .intro p {
+        font-size: 1.1rem;
+    }
+    
+    section.my-skills {
+        height: 70%;
+    }
+    
+    .skills-one-column p, .work .testimonials p {
+        font-size: 1rem;
+    }
+    
+    .wrapper {
+        height: 50%;
+        background-image: url('../layout-assets/contact_background.jpg');
+    }
+    
+    .gradient {
+        background: none;
+    }
+    
+    .contact-info-container {
+        margin-left: 2.5%;
+        margin-top: -3%;
+    }
+    
+    .contact-button {
+        width: auto;
+        margin-top: 3%;
+        padding: 4% 1%;
+    }
+    .contact-buttons {
+        width: 40%;
+    }
+    
+    footer {
+        height: 35%;
+    }
+    
+    footer .footer-copyright {
+        margin-top: 4%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    nav ul {
+        width: 75%;
+    }
+    
+    nav ul li {
+        width: 30%;
+    }
+    
+    .mobile-heading {
+        padding-top: 30%;
+    }
+    
+    section.my-skills {
+        height: auto;
+    }
+    
+    .skills-one-column {
+        float: none;
+        width: 100%;
+        margin: 8% 0 0 0;
+        padding: 2rem;
+        box-sizing: border-box;
+        border: 1px dashed #ccc;
+    }
+    
+    .work-one-column {
+        float: none;
+        width: 100%;
+        margin: 8% 0 0 0;
+        border: 1px dashed #ccc;
+        padding: 2rem;
+        box-sizing: border-box;
+    }
+    
+    .work .testimonials {
+        border-top: none;
+        margin: 2rem auto 0;
+    }
+    
+    footer {
+        height: 30%;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    container {
+        width: 99%;
+    }
+    
+    header.background {
+        height: 70%;
+    }
+    
+    .mobile-heading {
+        padding-top: 70%;
+        font-size: 25px;
+    }
+    
+    .main-heading {
+        display: none;
+    }
+    
+    nav #logo, nav ul {
+        width: 100%;
+        float: none;
+        padding: 2rem 0;
+        margin: 0;
+    }
+ 
+    nav #logo img {
+        width: 15%;
+        margin-left: 43%;
+        margin-top: 5%;
+    }
+    
+    nav ul li {
+        display: block;
+        width: 100%;
+        padding: 2% 0;
+    }
+    
+    nav ul li a {
+        font-size: 21px;
+    }
+    
+    video {
+        display: none;
+    }
+    
+    .contact-info-container {
+        left: 0;
+        margin-top: 8%;
+    }
+    
+    .contact-info-container .intro h2 {
+        font-size: 1.4rem;
+    }
+    
+    .contact-info-container .intro p {
+        font-size: 1rem;
+    }
+    
+    .contact-buttons {
+        margin-top: 8%;
+    }
+    
+    .contact-button {
+        margin-top: 5%;
+        padding: 3% 6%;
+    }
+      
+    .footer-info {
+        width: 100%;
+        padding: 0;
+    }
+
+    ul.contact-icons li {
+        width: 10%;
+    }
+    
+    footer {
+        height: 25%;
+    }   
+}
+
