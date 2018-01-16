@@ -531,8 +531,9 @@ ul.contact-icons li {
     }
     
     .mobile-heading {
-        padding: 36% 1% 0;
+        padding: 32% 1% 0;
         font-size: 29px;
+        font-weight:400;
     }
     
     .main-heading {
@@ -548,7 +549,7 @@ ul.contact-icons li {
     }
     
     nav ul {
-        margin: 76% 0 0 0;
+        margin: 74% 0 0 0;
         
     }
  
