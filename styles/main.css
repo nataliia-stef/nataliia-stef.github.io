@@ -379,7 +379,7 @@ ul.contact-icons li {
     }
     
     footer {
-        height: 34%;
+        height: 36%;
     }
     
     .contact-info-container .intro h2 {
@@ -454,12 +454,16 @@ ul.contact-icons li {
         width: 40%;
     }
     
+    ul.contact-icons {
+        padding-top: 2%;
+    }
+    
     footer {
-        height: 35%;
+        height: 38%;
     }
     
     footer .footer-copyright {
-        margin-top: 4%;
+        margin-top: 6%;
     }
 }
 
@@ -512,7 +516,7 @@ ul.contact-icons li {
     }
     
     footer {
-        height: 25%;
+        height: 33%;
     }
 
 }
@@ -527,7 +531,7 @@ ul.contact-icons li {
     }
     
     .mobile-heading {
-        padding-top: 70%;
+        padding: 40% 2.5% 0;
         font-size: 29px;
     }
     
@@ -544,23 +548,24 @@ ul.contact-icons li {
     }
     
     nav ul {
-        margin: 4% 0 0 0;
+        margin: 80% 0 0 0;
+        
     }
  
     nav #logo img {
-        width: 15%;
-        margin-left: 43%;
+        width: 26%;
+        margin-left: 38%;
         margin-top: 5%;
     }
     
     nav ul li {
         display: block;
         width: 100%;
-        padding: 2% 0;
+        padding: 3% 0;
     }
     
     nav ul li a {
-        font-size: 21px;
+        font-size: 23px;
     }
     
     video {
@@ -599,11 +604,12 @@ ul.contact-icons li {
     }
     
     footer {
-        height: 28%;
+        height: 35%;
     } 
     
     #logo-footer img {
-        width: 15%;
+        width: 13%;
+        padding-top: 13%;
     }
             
 }
