@@ -244,6 +244,9 @@ section.my-skills {
     padding: 0;
 }
 
+.contact-info-container .intro h2 {
+    padding-top: 4%;
+}
 .contact-info-container .intro h2, .contact-info-container .intro p {
     color: #fff;
 }
@@ -377,6 +380,10 @@ ul.contact-icons li {
     
     footer {
         height: 34%;
+    }
+    
+    .contact-info-container .intro h2 {
+        padding-top: 0;
     }
 }
 
@@ -550,8 +557,9 @@ ul.contact-icons li {
         display: none;
     }
     
-    .contact-info-container {
-        padding-top: 5%;
+    .contact-info-container h2 {
+        padding-top: 2%;
+        
     }
     
     .contact-info-container .intro h2 {
@@ -586,9 +594,9 @@ ul.contact-icons li {
             
 }
 
- @media screen and (max-width: 450px) {
+ @media screen and (max-width: 350px) {
     .contact-info-container {
-        padding-top: 0;
+        padding-top: 1%;
     }
      
     footer {
