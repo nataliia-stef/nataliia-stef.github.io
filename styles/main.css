@@ -551,7 +551,7 @@ ul.contact-icons li {
     }
     
     .contact-info-container {
-        padding-top: 8%;
+        padding-top: 5%;
     }
     
     .contact-info-container .intro h2 {
@@ -582,6 +582,18 @@ ul.contact-icons li {
     
     footer {
         height: 25%;
-    }   
+    } 
+            
 }
+
+ @media screen and (max-width: 450px) {
+    .contact-info-container {
+        padding-top: 0;
+    }
+     
+    footer {
+        height: 27%;
+    } 
+}
+
 
