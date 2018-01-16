@@ -347,7 +347,7 @@ ul.contact-icons li {
 @media screen and (max-width: 1000px) {  
    .mobile-heading {
         display: block;
-        padding-top: 20%;
+        padding-top: 22%;
         font-size: 50px;
         font-weight: 400;
     }
@@ -393,7 +393,7 @@ ul.contact-icons li {
     }
     
     header.background {
-        height: 70%;
+        height: 100vh;
     }
     
     h1, h2 {
@@ -402,6 +402,7 @@ ul.contact-icons li {
     
     .mobile-heading {
         font-size: 35px;
+        padding-top: 30%;
     }
     
     nav #logo img {
@@ -463,6 +464,10 @@ ul.contact-icons li {
 }
 
 @media screen and (max-width: 650px) {
+   header.background {
+        height: 100vh;
+    }
+    
     nav ul {
         width: 75%;
     }
@@ -472,7 +477,7 @@ ul.contact-icons li {
     }
     
     .mobile-heading {
-        padding-top: 30%;
+        padding-top: 40%;
     }
     
     section.my-skills {
@@ -518,23 +523,28 @@ ul.contact-icons li {
     }
     
     header.background {
-        height: 70%;
+        height: 100vh;
     }
     
     .mobile-heading {
         padding-top: 70%;
-        font-size: 25px;
+        font-size: 29px;
     }
     
     .main-heading {
         display: none;
     }
     
+    
     nav #logo, nav ul {
         width: 100%;
         float: none;
         padding: 2rem 0;
         margin: 0;
+    }
+    
+    nav ul {
+        margin: 4% 0 0 0;
     }
  
     nav #logo img {
@@ -591,6 +601,10 @@ ul.contact-icons li {
     footer {
         height: 28%;
     } 
+    
+    #logo-footer img {
+        width: 15%;
+    }
             
 }
 
